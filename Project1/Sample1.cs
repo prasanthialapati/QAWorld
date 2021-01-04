@@ -15,7 +15,7 @@ namespace Project1
         public void launchBrowser()
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https:www.google.com");
+            driver.Navigate().GoToUrl("https:www.target.com");
         }
     }
 }
